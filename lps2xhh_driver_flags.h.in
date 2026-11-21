@@ -1,0 +1,16 @@
+/*
+ * lps2xhh_driver_flags.h
+ *
+ *  Created on: 16 nov. 2026
+ *      Author: Ludo
+ */
+
+#ifndef __LPS2XHH_DRIVER_FLAGS_H__
+#define __LPS2XHH_DRIVER_FLAGS_H__
+
+/*** LPS2XHH driver compilation flags ***/
+
+#cmakedefine LPS2XHH_DRIVER_I2C_ERROR_BASE_LAST     @LPS2XHH_DRIVER_I2C_ERROR_BASE_LAST@
+#cmakedefine LPS2XHH_DRIVER_DELAY_ERROR_BASE_LAST   @LPS2XHH_DRIVER_DELAY_ERROR_BASE_LAST@
+
+#endif /* __LPS2XHH_DRIVER_FLAGS_H__ */
